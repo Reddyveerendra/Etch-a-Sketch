@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETCH A SKETCH</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>ETCH A SKETCH</h1>
+    <div class="page">
+        <div class="left">
+            <p>NUMBER OF ROWS/COLUMN</p>
+            <p class="value">8 X 8</p>
+            <div id="grid"></div>
+        </div>
+
+        <div class="controls">
+            <div>
+                <p>RANGE SLIDER</p>
+                <input type="range" min="2" max="64" value="8" class="grid-size" />
+            </div>
+            <div>
+                <p>COLOR SELECTOR</p>
+                <input type="color" class="colorValue">
+            </div>
+            <div>
+                <p>RESET HEAR</p>
+                <input type="button" class="reset" value="RESET">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

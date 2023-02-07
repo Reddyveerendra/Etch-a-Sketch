@@ -1,0 +1,27 @@
+#grid {
+  display: grid;
+  height: 600px;
+  width: 600px;
+  border: 5px solid black;
+  border-radius: 6px;
+}
+p {
+  font-size: 30px;
+}
+.page {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  text-align: center;
+  font-size: 80px;
+}
+.controls {
+  display: flex;
+  flex-direction: column;
+}
